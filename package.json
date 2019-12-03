@@ -4,6 +4,9 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "version": "independent",
+  "scripts": {
+    "publish": "lerna publish"
+  },
   "packages": [
     "packages/*"
   ],
