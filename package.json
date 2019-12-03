@@ -1,5 +1,6 @@
 {
   "name": "significa-style",
+  "author": "Significa Lda. <hello@significa.co>",
   "private": true,
   "npmClient": "yarn",
   "useWorkspaces": true,
