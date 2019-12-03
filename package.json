@@ -1,0 +1,16 @@
+{
+  "name": "significa-style",
+  "private": true,
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent",
+  "packages": [
+    "packages/*"
+  ],
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  }
+}
