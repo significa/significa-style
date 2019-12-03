@@ -5,5 +5,5 @@
   "main": "index.json",
   "scripts": {},
   "author": "Significa Lda. <hello@significa.co>",
-  "license": "ISC"
+  "license": "MIT"
 }

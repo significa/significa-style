@@ -5,7 +5,7 @@
   "main": "index.json",
   "scripts": {},
   "author": "Significa Lda. <hello@significa.co>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@react-native-community/eslint-config": "0.0.5",
     "@typescript-eslint/eslint-plugin": "^2.10.0",

@@ -1,18 +1,18 @@
-# @significa/eslint-config
+# @significa/prettier-config
 
 ## Installation
 
-`yarn add @significa/eslint-config`
+`yarn add @significa/prettier-config`
 
 ## Usage
 
-On `.eslintrc.js` file add:
+On `.prettierrc.js` file add:
 
-### React or vanilla JavaScript
+### React or vanilla Typescript
 
 ```json
 {
-  "extends": "@significa/eslint-config"
+  "extends": "@significa/prettier-config"
 }
 ```
 
@@ -20,7 +20,7 @@ On `.eslintrc.js` file add:
 
 ```json
 {
-  "extends": "@significa/eslint-config/native"
+  "extends": "@significa/prettier-config/native"
 }
 ```
 

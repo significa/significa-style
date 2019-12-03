@@ -1,0 +1,12 @@
+{
+  "name": "@significa/prettier-config",
+  "version": "1.0.0",
+  "description": "@significa/prettier-config",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Significa Lda. <hello@significa.co>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^1.19.1"
+  }
+}

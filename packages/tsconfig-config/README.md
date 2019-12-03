@@ -1,8 +1,8 @@
-# @significa/tslint-config
+# @significa/tsconfig-config
 
 ## Installation
 
-`yarn add @significa/tslint-config`
+`yarn add @significa/tsconfig-config`
 
 ## Usage
 
