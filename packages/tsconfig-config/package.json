@@ -1,6 +1,6 @@
 {
   "name": "@significa/tslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "@significa/tslint-config",
   "main": "index.json",
   "scripts": {},
