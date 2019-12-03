@@ -26,7 +26,7 @@ On `.eslintrc.json` file add:
 
 ## License
 
-[MIT](https://github.com/Significa/react-snuggle/blob/master/LICENSE)
+[MIT](https://github.com/Significa/significa-style/blob/master/LICENSE)
 
 ---
 

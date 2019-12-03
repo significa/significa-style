@@ -1,18 +1,20 @@
-# @significa/prettier-config
+# Significa frontend style
 
-## Installation
+## Features:
 
-`yarn add @significa/prettier-config`
+- Eslint;
+- Prettier;
+- TSConfig;
 
-## Usage
+## Publishing
 
-On `.prettierrc.js` file add:
+1. Generating new version:
 
-### React or vanilla Typescript:
+`yarn run version`
 
-```js
-module.exports = require("@significa/prettier-config");
-```
+2. Publishing:
+
+`yarn run publish`
 
 ## License
 
