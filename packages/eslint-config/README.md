@@ -1,18 +1,18 @@
-# @significa/tslint-config
+# @significa/eslint-config
 
 ## Installation
 
-`yarn add @significa/tslint-config`
+`yarn add @significa/eslint-config`
 
 ## Usage
 
-On `tsconfig.json` file add:
+On `eslint.json` file add:
 
 ### React or vanilla Typescript
 
 ```json
 {
-  "extends": "@significa/tsconfig-config"
+  "extends": "@significa/eslint-config"
 }
 ```
 
@@ -20,7 +20,7 @@ On `tsconfig.json` file add:
 
 ```json
 {
-  "extends": "@significa/tsconfig-config/native"
+  "extends": "@significa/eslint-config/native"
 }
 ```
 
