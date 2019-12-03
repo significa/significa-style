@@ -6,22 +6,12 @@
 
 ## Usage
 
-On `.prettierrc.json` file add:
+On `.prettierrc.js` file add:
 
 ### React or vanilla Typescript:
 
-```json
-{
-  "extends": "@significa/prettier-config"
-}
-```
-
-### React Native:
-
-```json
-{
-  "extends": "@significa/prettier-config/native"
-}
+```js
+module.exports = require("@significa/prettier-config");
 ```
 
 ## License
