@@ -2,7 +2,7 @@
   "name": "@significa/tslint-config",
   "version": "1.0.0",
   "description": "@significa/tslint-config",
-  "main": "index.js",
+  "main": "index.json",
   "scripts": {},
   "author": "Significa Lda. <hello@significa.co>",
   "license": "ISC"

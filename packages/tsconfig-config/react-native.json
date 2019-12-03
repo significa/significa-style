@@ -1,5 +1,5 @@
 {
-  "extends": "./base.json",
+  "extends": "./_base.json",
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
