@@ -8,7 +8,7 @@
 
 On `.prettierrc.js` file add:
 
-### React or vanilla Typescript
+### React or vanilla Typescript:
 
 ```json
 {
@@ -16,7 +16,7 @@ On `.prettierrc.js` file add:
 }
 ```
 
-### React Native
+### React Native:
 
 ```json
 {

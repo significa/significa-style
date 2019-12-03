@@ -8,7 +8,7 @@
 
 On `.eslintrc.js` file add:
 
-### React or vanilla JavaScript
+### React or vanilla JavaScript:
 
 ```json
 {
@@ -16,7 +16,7 @@ On `.eslintrc.js` file add:
 }
 ```
 
-### React Native
+### React Native:
 
 ```json
 {
