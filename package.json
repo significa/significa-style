@@ -6,8 +6,8 @@
   "useWorkspaces": true,
   "version": "independent",
   "scripts": {
-    "publish": "lerna publish",
-    "version": "lerna version"
+    "version": "lerna version",
+    "publish": "lerna publish from-packages"
   },
   "packages": [
     "packages/*"
