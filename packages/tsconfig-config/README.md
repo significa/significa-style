@@ -12,7 +12,7 @@ On `tsconfig.json` file add:
 
 ```json
 {
-  "extends": "@significa/tsconfig-config"
+  "extends": "./node_modules/@significa/tsconfig-config/index.json"
 }
 ```
 
@@ -20,7 +20,7 @@ On `tsconfig.json` file add:
 
 ```json
 {
-  "extends": "@significa/tsconfig-config/native"
+  "extends": "./node_modules/@significa/tsconfig-config/native.json"
 }
 ```
 
