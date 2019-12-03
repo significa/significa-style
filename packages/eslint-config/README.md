@@ -6,7 +6,7 @@
 
 ## Usage
 
-On `.eslintrc.js` file add:
+On `.eslintrc.json` file add:
 
 ### React or vanilla JavaScript:
 

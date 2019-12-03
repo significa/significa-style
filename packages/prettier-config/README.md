@@ -6,7 +6,7 @@
 
 ## Usage
 
-On `.prettierrc.js` file add:
+On `.prettierrc.json` file add:
 
 ### React or vanilla Typescript:
 
