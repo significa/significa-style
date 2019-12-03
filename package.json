@@ -7,7 +7,7 @@
   "version": "independent",
   "scripts": {
     "version": "lerna version",
-    "publish": "lerna publish from-packages"
+    "publish": "lerna publish from-package"
   },
   "packages": [
     "packages/*"
