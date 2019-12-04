@@ -1,12 +1,12 @@
 {
-  "name": "@significa/tsconfig-config",
+  "name": "@significa/prettier-config",
   "version": "0.0.6",
-  "description": "@significa/tsconfig-config",
-  "main": "index.json",
+  "description": "@significa/prettier-config",
+  "main": "index.js",
   "scripts": {},
   "author": "Significa Lda. <hello@significa.co>",
   "license": "MIT",
   "dependencies": {
-    "typescript": "^3.7.2"
+    "prettier": "^1.19.1"
   }
 }

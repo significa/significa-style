@@ -1,29 +1,19 @@
 <a href="https://significa.co"><img src="https://user-images.githubusercontent.com/4838076/70076649-20d29b00-15f7-11ea-9379-e2fa1889a525.png" alt="logo" width="300px"></a>
 
-# @significa/tsconfig-config
+# @significa/prettier-config
 
 ## Installation
 
-`npm i @significa/tsconfig-config --save-dev`
+`npm i @significa/prettier-config --save-dev`
 
 ## Usage
 
-On `tsconfig.json` file add:
+On `.prettierrc.js` file add:
 
 ### React or vanilla Typescript:
 
-```json
-{
-  "extends": "./node_modules/@significa/tsconfig-config/index.json"
-}
-```
-
-### React Native:
-
-```json
-{
-  "extends": "./node_modules/@significa/tsconfig-config/native.json"
-}
+```js
+module.exports = require("@significa/prettier-config");
 ```
 
 ## License
