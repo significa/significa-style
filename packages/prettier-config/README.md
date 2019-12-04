@@ -4,7 +4,7 @@
 
 ## Installation
 
-`yarn add @significa/prettier-config`
+`npm i @significa/prettier-config --save-dev`
 
 ## Usage
 

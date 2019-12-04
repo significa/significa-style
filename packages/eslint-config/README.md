@@ -4,7 +4,7 @@
 
 ## Installation
 
-`yarn add @significa/eslint-config`
+`npm i @significa/eslint-config --save-dev`
 
 ## Usage
 
