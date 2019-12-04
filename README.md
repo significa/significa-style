@@ -2,9 +2,9 @@
 
 ## Features:
 
-- Eslint;
-- Prettier;
-- TSConfig;
+- [Eslint](https://github.com/Significa/significa-style/tree/master/packages/eslint-config);
+- [Prettier](https://github.com/Significa/significa-style/tree/master/packages/prettier-config);
+- [TSConfig](https://github.com/Significa/significa-style/tree/master/packages/tsconfig-config);
 
 ## Publishing
 
