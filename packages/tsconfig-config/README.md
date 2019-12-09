@@ -22,7 +22,7 @@ On `tsconfig.json` file add:
 
 ```json
 {
-  "extends": "./node_modules/@significa/tsconfig-config/native.json"
+  "extends": "./node_modules/@significa/tsconfig-config/react-native.json"
 }
 ```
 
