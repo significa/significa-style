@@ -27,3 +27,5 @@ It will publish only one specific package:
 ## License
 
 [MIT](https://github.com/Significa/significa-style/blob/master/LICENSE)
+
+![dark@2x 3](https://user-images.githubusercontent.com/17513388/71971185-fc736b00-3201-11ea-9678-090b6b6a0b3f.png)
