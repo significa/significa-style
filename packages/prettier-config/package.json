@@ -1,6 +1,6 @@
 {
   "name": "@significa/prettier-config",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "@significa/prettier-config",
   "main": "index.js",
   "scripts": {},
