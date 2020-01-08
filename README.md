@@ -2,6 +2,8 @@
 
 Packages with Significa's opinionated code formatter configurations which aim to standardize the styling and code quality throughout projects.
 
+![significa-significa-style](https://user-images.githubusercontent.com/17513388/71968998-c59b5600-31fd-11ea-8a6f-398e332b4ea2.png)
+
 ## Features:
 
 - [Eslint](https://github.com/Significa/significa-style/tree/master/packages/eslint-config);
