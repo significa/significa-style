@@ -7,7 +7,14 @@ module.exports = {
     "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
   ],
-  plugins: ["react", "@typescript-eslint", "prettier", "react-hooks"],
+  plugins: [
+    "react",
+    "@typescript-eslint",
+    "prettier",
+    "react-hooks",
+    "simple-import-sort",
+    "sort-exports"
+  ],
   env: {
     browser: true,
     node: true,
@@ -27,6 +34,18 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": [
       "error",
       { argsIgnorePattern: "^_", varsIgnorePattern: "^_" }
+    ],
+    "sort-exports/sort-exports": ["error", { sortDir: "asc" }],
+    "simple-import-sort/sort": [
+      "error",
+      {
+        groups: [
+          ["^\\u0000"],
+          ["^@?\\w"],
+          ["^[^.|components]"],
+          ["^\\.|components"]
+        ]
+      }
     ]
   },
   overrides: [
