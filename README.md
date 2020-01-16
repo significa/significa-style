@@ -12,7 +12,7 @@ Packages with Significa's opinionated code formatter configurations which aim to
 
 ## Development
 
-It uses `learn` and `yarn workspace` to manage and publish the packages.
+It uses `lerna` and `yarn workspace` to manage and publish the packages.
 
 ### Publishing
 
