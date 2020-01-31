@@ -5,13 +5,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:prettier/recommended"
   ],
-  plugins: [
-    "react",
-    "prettier",
-    "react-hooks",
-    "simple-import-sort",
-    "sort-exports"
-  ],
+  plugins: ["react", "prettier", "react-hooks", "simple-import-sort"],
   env: {
     browser: true,
     node: true,
@@ -26,16 +20,10 @@ module.exports = {
   rules: {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "sort-exports/sort-exports": ["error", { sortDir: "asc" }],
     "simple-import-sort/sort": [
       "error",
       {
-        groups: [
-          ["^\\u0000"],
-          ["^@?\\w"],
-          ["^[^.|components]"],
-          ["^\\.|components"]
-        ]
+        groups: [["^\\u0000"], ["^@?\\w"], ["^[a-z]{0,}\\/|^[^.]"], ["^\\."]]
       }
     ]
   },

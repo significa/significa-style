@@ -2198,11 +2198,6 @@ eslint-plugin-simple-import-sort@^5.0.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-5.0.1.tgz#fd47d3ed2af30db3dd2cadaed285ad510dde479b"
   integrity sha512-s6Hjp9rcIDYT1h7tuTulblbY7+XQNZK+014uUkNJSKRXEHZO2i7CTr16HOpfgD9HDnUOpl0fwphPsr0oxZqgGg==
 
-eslint-plugin-sort-exports@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sort-exports/-/eslint-plugin-sort-exports-0.2.0.tgz#56c4cebb556c6e84a16a55a8cd0865bd0f63cdda"
-  integrity sha512-iu8qzet9q0x02CMAqc9lMpAYoDXX0S4bhglCES4Llci4TV6BmfEqBNyTp0DAQJQpwmMRLTWUdnqHh2R6kbUh+w==
-
 eslint-scope@^4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-4.0.3.tgz#ca03833310f6889a3264781aa82e63eb9cfe7848"
