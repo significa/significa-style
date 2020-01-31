@@ -3,18 +3,9 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
   ],
-  plugins: [
-    "react",
-    "@typescript-eslint",
-    "prettier",
-    "react-hooks",
-    "simple-import-sort",
-    "sort-exports"
-  ],
+  plugins: ["react", "prettier", "react-hooks", "simple-import-sort"],
   env: {
     browser: true,
     node: true,
@@ -29,30 +20,30 @@ module.exports = {
   rules: {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "@typescript-eslint/explicit-function-return-type": ["off"],
-    "@typescript-eslint/no-inferrable-types": 1,
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      { argsIgnorePattern: "^_", varsIgnorePattern: "^_" }
-    ],
-    "sort-exports/sort-exports": ["error", { sortDir: "asc" }],
     "simple-import-sort/sort": [
       "error",
       {
-        groups: [
-          ["^\\u0000"],
-          ["^@?\\w"],
-          ["^[^.|components]"],
-          ["^\\.|components"]
-        ]
+        groups: [["^\\u0000"], ["^@?\\w"], ["^[a-z]{0,}\\/|^[^.]"], ["^\\."]]
       }
     ]
   },
   overrides: [
     {
-      files: ["**/*.tsx"],
+      files: ["**/*.ts?(x)"],
+      parser: "@typescript-eslint/parser",
+      extends: [
+        "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint"
+      ],
+      plugins: ["@typescript-eslint"],
       rules: {
-        "react/prop-types": "off"
+        "react/prop-types": "off",
+        "@typescript-eslint/explicit-function-return-type": ["off"],
+        "@typescript-eslint/no-inferrable-types": 1,
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          { argsIgnorePattern: "^_", varsIgnorePattern: "^_" }
+        ]
       }
     }
   ]
