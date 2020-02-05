@@ -26,6 +26,19 @@ On `.eslintrc.json` file add:
 }
 ```
 
+## Import order with absolute paths
+
+If you have absolute paths, you probably don't want something like `components/Button` to be considered external:
+
+```json
+{
+  "extends": "@significa/eslint-config",
+  "settings": {
+    "import/internal-regex": "^components/|^utils/"
+  }
+}
+```
+
 ## License
 
 [MIT](https://github.com/Significa/significa-style/blob/master/LICENSE)

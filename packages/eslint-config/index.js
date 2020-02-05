@@ -5,7 +5,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:prettier/recommended"
   ],
-  plugins: ["react", "prettier", "react-hooks", "simple-import-sort"],
+  plugins: ["react", "prettier", "react-hooks", "import"],
   env: {
     browser: true,
     node: true,
@@ -20,12 +20,15 @@ module.exports = {
   rules: {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "simple-import-sort/sort": [
-      "error",
-      {
-        groups: [["^\\u0000"], ["^@?\\w"], ["^[a-z]{0,}\\/|^[^.]"], ["^\\."]]
-      }
-    ]
+    {
+      "groups": [
+        "builtin",
+        "external",
+        "internal",
+        ["parent", "sibling", "index"]
+      ],
+      "newlines-between": "always"
+    }
   },
   overrides: [
     {
