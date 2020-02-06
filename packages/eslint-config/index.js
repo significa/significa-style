@@ -20,15 +20,18 @@ module.exports = {
   rules: {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    {
-      "groups": [
-        "builtin",
-        "external",
-        "internal",
-        ["parent", "sibling", "index"]
-      ],
-      "newlines-between": "always"
-    }
+    "import/order": [
+      "error",
+      {
+        groups: [
+          "builtin",
+          "external",
+          "internal",
+          ["parent", "sibling", "index"]
+        ],
+        "newlines-between": "always"
+      }
+    ]
   },
   overrides: [
     {
