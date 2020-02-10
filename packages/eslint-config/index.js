@@ -3,9 +3,13 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:jsx-a11y/recommended"
   ],
   plugins: ["react", "prettier", "react-hooks", "import"],
+  parserOptions: {
+    sourceType: "module"
+  },
   env: {
     browser: true,
     node: true,
