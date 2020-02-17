@@ -18,14 +18,6 @@ On `.eslintrc.json` file add:
 }
 ```
 
-### React Native:
-
-```json
-{
-  "extends": "@significa/eslint-config/native"
-}
-```
-
 ## Import order with absolute paths
 
 If you have absolute paths, you probably don't want something like `components/Button` to be considered external:
