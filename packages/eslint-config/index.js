@@ -6,14 +6,16 @@ module.exports = {
     "plugin:prettier/recommended",
     "plugin:jsx-a11y/recommended"
   ],
-  plugins: ["react", "prettier", "react-hooks", "import"],
+  plugins: ["react", "prettier", "react-hooks", "import", "jest"],
   parserOptions: {
     sourceType: "module"
   },
   env: {
     browser: true,
     node: true,
-    es6: true
+    es6: true,
+    jest: true,
+    'jest/globals': true
   },
   settings: {
     react: {
