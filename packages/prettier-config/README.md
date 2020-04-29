@@ -10,11 +10,18 @@
 
 On `.prettierrc.js` file add:
 
-### React or vanilla Typescript:
-
 ```js
 module.exports = require("@significa/prettier-config");
 ```
+
+### Script in package.json
+
+```json
+"scripts": {
+  "prettier": "prettier \"src/**/*.+(ts|tsx|js|jsx|json|yml|yaml|md|mdx)\" --write"
+},
+```
+
 
 ## License
 

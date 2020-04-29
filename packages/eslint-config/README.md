@@ -10,12 +10,18 @@
 
 On `.eslintrc.json` file add:
 
-### React or vanilla JavaScript:
-
 ```json
 {
   "extends": "@significa/eslint-config"
 }
+```
+
+#### Script in package.json
+
+```json
+"scripts": {
+  "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\""
+},
 ```
 
 ## Import order with absolute paths

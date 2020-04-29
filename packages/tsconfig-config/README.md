@@ -10,7 +10,7 @@
 
 On `tsconfig.json` file add:
 
-### React or vanilla Typescript:
+**React or vanilla Typescript:**
 
 ```json
 {
@@ -18,12 +18,20 @@ On `tsconfig.json` file add:
 }
 ```
 
-### React Native:
+**React Native:**
 
 ```json
 {
   "extends": "./node_modules/@significa/tsconfig-config/react-native.json"
 }
+```
+
+### Script in package.json
+
+```json
+"scripts": {
+  "build": "tsc"
+},
 ```
 
 ## License
