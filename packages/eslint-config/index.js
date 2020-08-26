@@ -4,24 +4,24 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:prettier/recommended",
-    "plugin:jsx-a11y/recommended"
+    "plugin:jsx-a11y/recommended",
   ],
   plugins: ["react", "prettier", "react-hooks", "import", "jest"],
   parserOptions: {
-    sourceType: "module"
+    sourceType: "module",
   },
   env: {
     browser: true,
     node: true,
     es6: true,
     jest: true,
-    'jest/globals': true
+    "jest/globals": true,
   },
   settings: {
     react: {
       pragma: "React",
-      version: "detect"
-    }
+      version: "detect",
+    },
   },
   rules: {
     "no-console": ["error", { allow: ["warn", "error"] }],
@@ -34,11 +34,18 @@ module.exports = {
           "builtin",
           "external",
           "internal",
-          ["parent", "sibling", "index"]
+          ["parent", "sibling", "index"],
         ],
-        "newlines-between": "always"
-      }
-    ]
+        "newlines-between": "always",
+      },
+    ],
+    "react/self-closing-comp": [
+      "warn",
+      {
+        component: true,
+        html: true,
+      },
+    ],
   },
   overrides: [
     {
@@ -46,7 +53,7 @@ module.exports = {
       parser: "@typescript-eslint/parser",
       extends: [
         "plugin:@typescript-eslint/recommended",
-        "prettier/@typescript-eslint"
+        "prettier/@typescript-eslint",
       ],
       plugins: ["@typescript-eslint"],
       rules: {
@@ -55,9 +62,9 @@ module.exports = {
         "@typescript-eslint/no-inferrable-types": 1,
         "@typescript-eslint/no-unused-vars": [
           "error",
-          { argsIgnorePattern: "^_", varsIgnorePattern: "^_" }
-        ]
-      }
-    }
-  ]
+          { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
+        ],
+      },
+    },
+  ],
 };
