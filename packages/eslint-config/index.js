@@ -5,6 +5,9 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:prettier/recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
   ],
   plugins: ["react", "prettier", "react-hooks", "import", "jest"],
   parserOptions: {
@@ -21,6 +24,11 @@ module.exports = {
     react: {
       pragma: "React",
       version: "detect",
+    },
+    "import/resolver": {
+      node: {
+        moduleDirectory: ["node_modules", "src/"],
+      },
     },
   },
   rules: {
@@ -67,4 +75,4 @@ module.exports = {
       },
     },
   ],
-};
+}
