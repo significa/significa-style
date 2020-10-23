@@ -1,6 +1,6 @@
 {
   "name": "@significa/eslint-config",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "@significa/eslint-config",
   "main": "index.json",
   "scripts": {},
