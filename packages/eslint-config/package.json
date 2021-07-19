@@ -1,11 +1,5 @@
 {
-  "name": "@significa/eslint-config",
-  "version": "1.0.0",
-  "description": "@significa/eslint-config",
-  "main": "index.json",
-  "scripts": {},
   "author": "Significa Lda. <hello@significa.co>",
-  "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.6.0",
     "@typescript-eslint/parser": "^4.6.0",
@@ -20,5 +14,11 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.1.2",
     "typescript": "^4.0.5"
-  }
+  },
+  "description": "@significa/eslint-config",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@significa/eslint-config",
+  "scripts": {},
+  "version": "1.0.0"
 }
