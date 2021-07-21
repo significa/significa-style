@@ -1,6 +1,6 @@
 {
   "name": "@significa/tsconfig-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "@significa/tsconfig-config",
   "main": "index.json",
   "scripts": {},
