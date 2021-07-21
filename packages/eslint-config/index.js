@@ -36,6 +36,7 @@ module.exports = {
     "no-console": ["error", { allow: ["warn", "error"] }],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
+    "import/default": "off",
     "import/order": [
       "error",
       {
