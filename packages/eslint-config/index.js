@@ -3,11 +3,11 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:prettier/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:import/typescript",
+    "plugin:prettier/recommended",
   ],
   plugins: ["react", "prettier", "react-hooks", "import", "jest"],
   parserOptions: {
@@ -62,11 +62,7 @@ module.exports = {
   overrides: [
     {
       files: ["**/*.ts?(x)"],
-      parser: "@typescript-eslint/parser",
-      extends: [
-        "plugin:@typescript-eslint/recommended",
-        "prettier/@typescript-eslint",
-      ],
+      extends: ["plugin:@typescript-eslint/recommended"],
       plugins: ["@typescript-eslint"],
       rules: {
         "react/prop-types": "off",
