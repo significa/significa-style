@@ -26,6 +26,7 @@ module.exports = {
       version: "detect",
     },
     "import/resolver": {
+      typescript: {},
       node: {
         moduleDirectory: ["node_modules", "src/"],
       },
@@ -45,6 +46,9 @@ module.exports = {
           ["parent", "sibling", "index"],
         ],
         "newlines-between": "always",
+        alphabetize: {
+          order: "asc",
+        },
       },
     ],
     "react/self-closing-comp": [
@@ -75,4 +79,4 @@ module.exports = {
       },
     },
   ],
-}
+};
