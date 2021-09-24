@@ -1,18 +1,25 @@
+/*
+ * @rushstack/eslint-patch is used to include plugins as dev
+ * dependencies instead of imposing them as peer dependencies
+ *
+ * https://www.npmjs.com/package/@rushstack/eslint-patch
+ */
+require("@rushstack/eslint-patch/modern-module-resolution");
+
 module.exports = {
-  parser: "@typescript-eslint/parser",
+  parser: "@babel/eslint-parser",
+  parserOptions: {
+    requireConfigFile: false,
+  },
   extends: [
     "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:jsx-a11y/recommended",
+    "plugin:jest/recommended",
+    "plugin:jest/style",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:import/typescript",
     "plugin:prettier/recommended",
   ],
-  plugins: ["react", "prettier", "react-hooks", "import", "jest"],
-  parserOptions: {
-    sourceType: "module",
-  },
+  plugins: ["prettier", "import", "jest"],
   env: {
     browser: true,
     node: true,
@@ -21,10 +28,6 @@ module.exports = {
     "jest/globals": true,
   },
   settings: {
-    react: {
-      pragma: "React",
-      version: "detect",
-    },
     "import/resolver": {
       typescript: {},
       node: {
@@ -34,8 +37,6 @@ module.exports = {
   },
   rules: {
     "no-console": ["error", { allow: ["warn", "error"] }],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
     "import/default": "off",
     "import/order": [
       "error",
@@ -52,19 +53,33 @@ module.exports = {
         },
       },
     ],
-    "react/self-closing-comp": [
-      "warn",
-      {
-        component: true,
-        html: true,
-      },
-    ],
   },
   overrides: [
     {
-      files: ["**/*.ts?(x)"],
-      extends: ["plugin:@typescript-eslint/recommended"],
-      plugins: ["@typescript-eslint"],
+      files: ["**/*.{ts,tsx}"],
+      parser: "@typescript-eslint/parser",
+      parserOptions: {
+        sourceType: "module",
+        tsconfigRootDir: __dirname,
+      },
+      extends: [
+        "plugin:@typescript-eslint/recommended",
+        "plugin:import/typescript",
+        "plugin:jest/recommended",
+        "plugin:jest/style",
+        "plugin:prettier/recommended",
+      ],
+      plugins: ["prettier", "jest", "@typescript-eslint"],
+      settings: {
+        "import/parsers": {
+          "@typescript-eslint/parser": [".ts", ".tsx"],
+        },
+        "import/resolver": {
+          typescript: {
+            project: "./tsconfig.json",
+          },
+        },
+      },
       rules: {
         "react/prop-types": "off",
         "@typescript-eslint/explicit-function-return-type": ["off"],
