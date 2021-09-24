@@ -1,10 +1,8 @@
-<a href="https://significa.co"><img src="https://user-images.githubusercontent.com/4838076/70076649-20d29b00-15f7-11ea-9379-e2fa1889a525.png" alt="logo" width="300px"></a>
-
 # @significa/eslint-config
 
 ## Installation
 
-`npm i @significa/eslint-config --save-dev`
+`npm i --save-dev eslint @significa/eslint-config`
 
 ## Usage
 
@@ -12,7 +10,15 @@ On `.eslintrc.json` file add:
 
 ```json
 {
-  "extends": "@significa/eslint-config"
+  "extends": "@significa"
+}
+```
+
+### Usage with React
+
+```json
+{
+  "extends": ["@significa", "@significa/eslint-config/react"]
 }
 ```
 
@@ -24,19 +30,8 @@ On `.eslintrc.json` file add:
 },
 ```
 
-## Import order with absolute paths
-
-If you have absolute paths, you probably don't want something like `components/Button` to be considered external:
-
-```json
-{
-  "extends": "@significa/eslint-config",
-  "settings": {
-    "import/internal-regex": "^components/|^utils/"
-  }
-}
-```
-
 ## License
 
 [MIT](https://github.com/Significa/significa-style/blob/master/LICENSE)
+
+<a href="https://significa.co"><img src="https://user-images.githubusercontent.com/4838076/70076649-20d29b00-15f7-11ea-9379-e2fa1889a525.png" alt="logo" width="300px"></a>
