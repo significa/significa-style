@@ -1,10 +1,10 @@
-<a href="https://significa.co"><img src="https://user-images.githubusercontent.com/4838076/70076649-20d29b00-15f7-11ea-9379-e2fa1889a525.png" alt="logo" width="300px"></a>
-
 # @significa/tsconfig-config
 
 ## Installation
 
-`npm i @significa/tsconfig-config --save-dev`
+`npm i --save-dev @significa/tsconfig-config`  
+or  
+`yarn add -D @significa/tsconfig-config`
 
 ## Usage
 
@@ -37,3 +37,5 @@ On `tsconfig.json` file add:
 ## License
 
 [MIT](https://github.com/Significa/significa-style/blob/master/LICENSE)
+
+<a href="https://significa.co"><img src="https://user-images.githubusercontent.com/4838076/70076649-20d29b00-15f7-11ea-9379-e2fa1889a525.png" alt="logo" width="300px"></a>
