@@ -2,8 +2,8 @@
 
 ## Installation
 
-`npm i --save-dev eslint @significa/eslint-config`
-or
+`npm i --save-dev eslint @significa/eslint-config`  
+or  
 `yarn add -D eslint @significa/eslint-config`
 
 ## Usage
