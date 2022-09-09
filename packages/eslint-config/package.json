@@ -1,5 +1,5 @@
 {
-  "version": "2.0.1",
+  "version": "3.0.0",
   "author": "Significa Lda. <hello@significa.co>",
   "description": "@significa/eslint-config",
   "license": "MIT",
@@ -7,26 +7,26 @@
   "name": "@significa/eslint-config",
   "scripts": {},
   "dependencies": {
-    "@babel/core": "^7.15.8",
-    "@babel/eslint-parser": "^7.15.8",
-    "@rushstack/eslint-patch": "^1.0.8",
-    "@typescript-eslint/eslint-plugin": "5.2.0",
-    "@typescript-eslint/parser": "5.2.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-import-resolver-typescript": "2.5.0",
-    "eslint-plugin-import": "2.25.2",
-    "eslint-plugin-jest": "25.2.2",
-    "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-react": "7.26.1",
-    "eslint-plugin-react-hooks": "4.2.1-alpha-4298ddbc5-20211023",
-    "prettier": "2.4.1"
+    "@babel/core": "^7.19.0",
+    "@babel/eslint-parser": "^7.18.9",
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@typescript-eslint/eslint-plugin": "5.36.2",
+    "@typescript-eslint/parser": "5.36.2",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-import-resolver-typescript": "3.5.1",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jest": "27.0.2",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.31.7",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "prettier": "2.7.1"
   },
   "peerDependencies": {
-    "eslint": "^8.1.0",
-    "typescript": "^4.4.4"
+    "eslint": "^8.23.0",
+    "typescript": "^4.8.2"
   },
   "devDependencies": {
-    "eslint": "^8.1.0"
+    "eslint": "^8.23.0"
   }
 }
