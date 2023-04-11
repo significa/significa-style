@@ -1,12 +1,12 @@
 {
   "name": "@significa/tsconfig-config",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "@significa/tsconfig-config",
   "main": "index.json",
   "scripts": {},
   "author": "Significa Lda. <hello@significa.co>",
   "license": "MIT",
   "dependencies": {
-    "typescript": "4.3.5"
+    "typescript": "5.0.4"
   }
 }
